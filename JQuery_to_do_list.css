@@ -1,0 +1,37 @@
+body{
+	
+	text-align:center;
+	color:white;
+	background-image:linear-gradient(to right,purple,blue);
+	font-family:Times New Roman;
+	font-weight:bold;
+	font-size:italic;
+	background-image:single;
+	
+	
+}
+#txt{
+	width:350px;
+	height:100px;
+	outline:none;
+	border:none;
+	background-color:transparent;
+	color:white;
+	font-size:30px;
+	font-family:Cursive;
+	
+}
+#div0{
+	border:10px solid red;
+	border-radius:20px;
+	width:;
+	
+}
+#div1{
+	border:10px solid white;
+	border-radius:20px;
+}
+#div2{
+	border:10px solid orange;
+	border-radius:20px;
+}
