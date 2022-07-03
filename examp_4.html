@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<title>Simple jquery to do  list</title>
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<style>
+</style>
+</head>
+<body>
+<iframe id="ifm" src="#" height="380"></iframe>
+<select>
+<option><div id="nm"></div><option>
+<option><button >click here</button></option>
+</select>
+<script>
+$("#ifm").hide();
+var btn=$("button");
+
+btn.click(()=>{ $("#ifm").attr("src","https://prashu2003.github.io/example.github.io/");
+$("#ifm").toggle(1000);
+
+
+});
+
+</script>
+</body>
+</html>
